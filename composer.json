@@ -29,7 +29,11 @@
   "config": {
     "preferred-install": "dist",
     "sort-packages": true,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true,
+      "composer/installers": true
+    }
   },
   "require": {
     "php": ">=7.1.0",

@@ -76,6 +76,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+@include('components.header');
 <div id="app">
     <div class="content">
         <div class="head">
@@ -99,6 +100,6 @@
         </ul>
     </div>
 </div>
-<?php wp_footer(); ?>
+ @include('components.footer');
 </body>
 </html>

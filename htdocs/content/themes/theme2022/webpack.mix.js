@@ -14,4 +14,3 @@ mix.setPublicPath('dist');
 
 mix.js('assets/js/theme.js', 'dist/js/theme.min.js')
     .sass('assets/sass/style.scss', 'dist/css/theme.css')
-    .sass('assets/sass/woocommerce.scss', 'dist/css');

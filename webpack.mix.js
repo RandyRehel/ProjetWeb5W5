@@ -10,9 +10,10 @@ let mix = require('laravel-mix');
  | file for your application, as well as bundling up your JS files.
  |
  */
+    mix.setPublicPath('htdocs');
+    mix.js('resources/js/app.js', 'htdocs/content/themes/theme2022/dist/js')
+    .sass('resources/sass/app.scss', 'htdocs/content/themes/theme2022/dist/css');
 
-mix.js('resources/js/app.js', 'htdocs/dist/')
-    .sass('resources/sass/app.scss', 'htdocs/dist/');
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.

@@ -91,6 +91,12 @@
             <li><a href="https://github.com/themosis" target="_blank" title="GitHub - Themosis">GitHub</a></li>
             <li><a href="https://twitter.com/Themosis" target="_blank" title="Twitter - Themosis">Twitter</a></li>
         </ul>
+
+        <ul class="test1">
+            <li class="oui">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae officia voluptas tempore sunt, non cumque quasi, nam, repellat sed corrupti dolorem consectetur ducimus? Tenetur dolores autem ipsum eligendi, recusandae id.</li>
+            <li class="oui">orem ipsum dolor sit amet consectetur, adipisicing elit. Vitae officia voluptas tempore su</li>
+            <li class="oui">orem ipsum dolor sit amet consectetur, adipisicing elit. Vitae officia voluptas tempore su</li>
+        </ul>
     </div>
 </div>
 <?php wp_footer(); ?>

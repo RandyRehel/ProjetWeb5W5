@@ -437,28 +437,36 @@ a:active {
 }
 
 .communication {
-  font-size: 30px;
-  padding-left: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-content: center;
+  font-size: 30px;
 }
 
 .com {
   white-space: nowrap;
-  align-content: center;
-  padding-left: 100px;
+  text-align: center;
 }
 
 .nav {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
-.nav-item {
-  padding: 20px;
-}
-
-.emplacementIcone {
+.nav-item4 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid black;
+  color: red;
 }
 

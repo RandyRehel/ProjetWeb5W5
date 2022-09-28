@@ -12,7 +12,7 @@
     </div>
 
     <div class="emplacementIcone">
-    <li class="nav-item4"><a href="" class="nav-link pl-0">Emplacement<i class="fa fa-facebook fa-lg"></i></a></li>
+    <li class="nav-item4">Emplacement</li>
     </div>
     <!-- section Contacts de l'école maisonneuve-->
     <div class="maisonneuveContacts">

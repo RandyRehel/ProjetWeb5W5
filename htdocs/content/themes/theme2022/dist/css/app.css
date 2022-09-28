@@ -429,3 +429,36 @@ a:active {
   list-style: none;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 10px solid black;
+}
+
+.communication {
+  font-size: 30px;
+  padding-left: 10px;
+  align-content: center;
+}
+
+.com {
+  white-space: nowrap;
+  align-content: center;
+  padding-left: 100px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.emplacementIcone {
+  display: flex;
+  justify-content: center;
+}
+

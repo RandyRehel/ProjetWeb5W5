@@ -6,8 +6,10 @@
 
 
 <section>
-    <div class="logo">
+     <div class="logo">
         <img src="" alt="le logo du tim">
-        @include('components.nav');
+    </div> 
+    <div class="nav">
+        @include('components.nav')
     </div>
 </section>
